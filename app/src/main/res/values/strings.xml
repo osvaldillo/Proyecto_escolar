@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">TecNM Id Token</string>
     <string name="title_activity_scaner">ScanerActivity</string>
+    <string name="hint_username">Usuario</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="login_button">Iniciar sesión</string>
 </resources>
