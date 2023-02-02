@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "403681473517",
+    "project_id": "proyecto-escolar-d70bf",
+    "storage_bucket": "proyecto-escolar-d70bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:403681473517:android:fee3c5fe4d40d690492de4",
+        "android_client_info": {
+          "package_name": "com.example.proyectoescolar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "403681473517-mfkefpqp3doc541ncdj00vmpl7l1qlti.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxIEYvgHi9m-uaqN6OKFke9WjQbfW6Ec8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "403681473517-mfkefpqp3doc541ncdj00vmpl7l1qlti.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
