@@ -1,0 +1,13 @@
+Errores (qué corregir)
+-El flujo de actividades no se respeta cuando se presiona el botón back (Login Activity y Main Activity)
+
+        //El tipo de letra del editText de contraseña cambia cuando se modifica la visibilidad
+
+Funcionalidades (qué añadir)
+-Verificar si es la primera vez que se inicia sesión
+-Botón de cambio de contraseña
+-Comprobar usuario tester (añadir mensaje en Main Activity para testing)
+
+UX(qué mejorar)
+-Cambiar el diseño del action bar y el color del Login Activity
+

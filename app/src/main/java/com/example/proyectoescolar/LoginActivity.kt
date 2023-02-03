@@ -1,6 +1,10 @@
 package com.example.proyectoescolar
 
 import android.content.Intent
+import android.graphics.Typeface
+import android.graphics.fonts.Font
+import android.graphics.fonts.FontFamily
+import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.TextUtils
@@ -10,6 +14,7 @@ import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
 import android.widget.ToggleButton
+import androidx.annotation.RequiresApi
 import androidx.core.content.ContextCompat
 import androidx.core.widget.doOnTextChanged
 import com.example.proyectoescolar.databinding.ActivityLogin2Binding
@@ -21,12 +26,14 @@ class LoginActivity : AppCompatActivity() {
     companion object{
         lateinit var user: String
     }
+
     private lateinit var userPassword: String
     private lateinit var binding: ActivityLogin2Binding
     private lateinit var mAuth: FirebaseAuth
     private lateinit var etPassword: EditText
     private lateinit var etUserName: EditText
     private lateinit var tvLoginFailed: TextView
+    @RequiresApi(Build.VERSION_CODES.O)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityLogin2Binding.inflate(layoutInflater)
@@ -43,10 +50,17 @@ class LoginActivity : AppCompatActivity() {
 
         var tgbVisibilityPassword = binding.tgbVisibilityPassword
         etPassword.inputType = 129
+        val typeFace: Typeface = resources.getFont(R.font.mulish_regular)
+        etPassword.typeface = typeFace
         tgbVisibilityPassword.setOnCheckedChangeListener { buttonView, isChecked ->
-            if (buttonView.isChecked) etPassword.inputType = 145  //entero correspondiente al inputType oculto
+            if (buttonView.isChecked) {
+                etPassword.inputType = 145
+                etPassword.typeface = typeFace
+            }
             else {
                 etPassword.inputType = 129 //entero correspondiente al inputType visible
+                etPassword.typeface = typeFace
+
             }
         }
 
