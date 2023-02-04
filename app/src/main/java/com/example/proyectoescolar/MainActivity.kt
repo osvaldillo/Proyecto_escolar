@@ -24,4 +24,15 @@ class MainActivity : AppCompatActivity() {
         FirebaseAuth.getInstance().signOut()
         startActivity(Intent(this, LoginActivity::class.java))
     }
+
+    override fun onBackPressed() {
+        val currentUser = FirebaseAuth.getInstance().currentUser
+        if (currentUser != null) {
+            val startMain = Intent(Intent.ACTION_MAIN)
+            startMain.addCategory(Intent.CATEGORY_HOME)
+            startMain.flags = Intent.FLAG_ACTIVITY_NEW_TASK
+            startActivity(startMain)
+        }
+
+    }
 }

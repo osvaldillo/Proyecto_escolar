@@ -98,4 +98,16 @@ class LoginActivity : AppCompatActivity() {
 
         }
     }
+
+    override fun onStart() {
+        super.onStart()
+        val currentUser = FirebaseAuth.getInstance().currentUser
+        if (currentUser != null) goHome()
+    }
+    override fun onBackPressed() {
+        val startMain = Intent(Intent.ACTION_MAIN)
+        startMain.addCategory(Intent.CATEGORY_HOME)
+        startMain.flags = Intent.FLAG_ACTIVITY_NEW_TASK
+        startActivity(startMain)
+    }
 }
