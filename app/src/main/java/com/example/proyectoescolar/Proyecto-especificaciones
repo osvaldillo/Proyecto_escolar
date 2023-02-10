@@ -1,0 +1,31 @@
+1- Validación y autenticación de usuario
+    -Por huella
+    -Contraseña
+    -Acceso a base de datos en la nube (encriptada)
+
+2.- Acceso a la cámara del celular
+    -Permisos
+    -Control y captura
+    -Almacenamiento de imagenes
+
+3.- Procesamiento de imagenes
+    -Adaptación de la imagen
+    -Determinación de métricas para autenticación de rostros
+    -Clasificación de métricas de rostros
+
+4.- Utilería para almacenamiento/registro de rostros
+    -Validación y autenticación de usuario
+        -Por huella
+        -Almacenamiento en DB en la nube (encriptada)
+
+5.- Validación y autenticación de rostros
+    -Comprobación de rostro (identidad)
+    -Time stamp(fecha, hora)
+    -GPS(En caso de contar con él)
+    -Almacenamiento de los datos en la DB en la nube
+        -Offline
+        -Online
+
+6.- Salir
+    -Cambiar de usuario
+    -Dejar la app

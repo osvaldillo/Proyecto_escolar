@@ -8,6 +8,14 @@ Funcionalidades (qué añadir)
 -Verificar si es la primera vez que se inicia sesión
 -Botón de cambio de contraseña
 -Comprobar usuario tester (añadir mensaje en Main Activity para testing)
+-Iniciar cámara
+-Comprobar usuario
+-Permitir/denegar acceso a la actividad principal
+-Añadir actividad de registro de usuario (autenticación biométrica y datos)
+-Añadir actividad de comprobación de usuario (autenticación biométrica y datos)
+-Añadir actividad de comprobación exitosa/fallida
+-Botón de cerrar sesión
+-Encriptar base de datos
 
 UX(qué mejorar)
 
