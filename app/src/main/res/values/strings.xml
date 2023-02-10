@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">TecNM Id Token</string>
     <string name="title_activity_scaner">ScanerActivity</string>
@@ -5,4 +6,7 @@
     <string name="hint_password">Contraseña</string>
     <string name="login_button">Iniciar sesión</string>
     <string name="login_failed">Datos incorrectos</string>
+    <string name="permission_warning">Para continuar, habilita los permisos de cámara y la escritura en el almacenamiento para esta aplicación.</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="unknown">Unknown</string>
 </resources>

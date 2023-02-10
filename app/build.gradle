@@ -50,5 +50,5 @@ dependencies {
     implementation platform('com.google.firebase:firebase-bom:31.2.0')
     implementation 'com.google.firebase:firebase-auth:21.1.0'
     implementation 'com.quickbirdstudios:opencv-contrib:3.4.15'
-    implementation group: 'org.bytedeco', name: 'javacv-platform', version: '1.5.7'
+    //implementation group: 'org.bytedeco', name: 'javacv-platform', version: '1.5.7'
 }

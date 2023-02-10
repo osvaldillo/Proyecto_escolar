@@ -6,8 +6,7 @@ Errores (qué corregir)
 
 Funcionalidades (qué añadir)
 -Verificar si es la primera vez que se inicia sesión
--Botón de cambio de contraseña
--Comprobar usuario tester (añadir mensaje en Main Activity para testing)
+-Botón de cambio de contraseñain Activity para testing)
 -Iniciar cámara
 -Comprobar usuario
 -Permitir/denegar acceso a la actividad principal
@@ -17,7 +16,8 @@ Funcionalidades (qué añadir)
 -Botón de cerrar sesión
 -Encriptar base de datos
 
-UX(qué mejorar)
+UX(q
+-Comprobar usuario tester (añadir mensaje en Maué mejorar)
 
 
         //Cambiar el diseño del action bar y el color del Login Activity
