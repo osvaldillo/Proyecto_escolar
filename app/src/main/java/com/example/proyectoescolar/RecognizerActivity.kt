@@ -225,7 +225,7 @@ import com.chaquo.python.Python
 import com.chaquo.python.android.AndroidPlatform
 import com.example.proyectoescolar.databinding.ActivityRecognizerBinding
 import com.google.firebase.auth.FirebaseAuth
-import org.opencv.android.OpenCVLoader
+//import org.opencv.android.OpenCVLoader
 
 class RecognizerActivity : AppCompatActivity() {
     private lateinit var binding: ActivityRecognizerBinding
@@ -239,9 +239,9 @@ class RecognizerActivity : AppCompatActivity() {
         tvHelloWorld.setOnClickListener {
             signOut()
         }
-        if(OpenCVLoader.initDebug()) Toast.makeText(this, "OpenCV inicializado exitosamente", Toast.LENGTH_SHORT).show()
-        else Toast.makeText(this, "No se ha podido inicializar OpenCV", Toast.LENGTH_SHORT).show()
-        sleep(1000L)
+        //if(OpenCVLoader.initDebug()) Toast.makeText(this, "OpenCV inicializado exitosamente", Toast.LENGTH_SHORT).show()
+        //else Toast.makeText(this, "No se ha podido inicializar OpenCV", Toast.LENGTH_SHORT).show()
+        //sleep(1000L)
         if (!Python.isStarted()) Python.start(AndroidPlatform(this)); Toast.makeText(this, "Python iniciado", Toast.LENGTH_SHORT).show()
     }
     private fun signOut(){

@@ -1,10 +1,13 @@
 package com.example.proyectoescolar
-
+/*
 import org.opencv.core.Mat
 import org.opencv.core.MatOfRect
-
+*/
 class DetectionBasedTracker(cascadeName: String, minFaceSize: Int) {
-    fun start() {
+    fun nothing(){
+        TODO()
+    }
+    /*fun start() {
         nativeStart(mNativeObj)
     }
 
@@ -39,4 +42,6 @@ class DetectionBasedTracker(cascadeName: String, minFaceSize: Int) {
         private external fun nativeSetFaceSize(thiz: Long, size: Int)
         private external fun nativeDetect(thiz: Long, inputImage: Long, faces: Long)
     }
+    */
+
 }

@@ -7,7 +7,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.proyectoescolar.databinding.ActivityMainBinding
 import com.google.firebase.auth.FirebaseAuth
-import org.opencv.android.OpenCVLoader
+//import org.opencv.android.OpenCVLoader
 
 /*
 import org.opencv.android.LoaderCallbackInterface
@@ -36,8 +36,8 @@ class MainActivity : AppCompatActivity() {
         tvHelloWorld.setOnClickListener {
             signOut()
         }
-        if(OpenCVLoader.initDebug()) Toast.makeText(this, "OpenCV inicializado exitosamente", Toast.LENGTH_SHORT).show()
-        else Toast.makeText(this, "No se ha podido inicializar OpenCV", Toast.LENGTH_SHORT).show()
+        //if(OpenCVLoader.initDebug()) Toast.makeText(this, "OpenCV inicializado exitosamente", Toast.LENGTH_SHORT).show()
+        //else Toast.makeText(this, "No se ha podido inicializar OpenCV", Toast.LENGTH_SHORT).show()
     }
     private fun signOut(){
         FirebaseAuth.getInstance().signOut()
